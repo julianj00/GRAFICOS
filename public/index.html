@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Cartesiano</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa; /* Fondo claro para mayor contraste */
+        }
+        #chartContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Añade espacio alrededor del gráfico */
+            background-color: #ffffff; /* Fondo blanco para el contenedor */
+            border-radius: 8px; /* Esquinas redondeadas para el contenedor */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+        }
+        #scatterChart {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="chartContainer">
+        <canvas id="scatterChart" width="375" height="375"></canvas>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
